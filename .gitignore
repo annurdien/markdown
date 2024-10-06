@@ -1,0 +1,95 @@
+# Xcode
+#
+.DS_Store
+!.gitignore
+build/
+DerivedData/
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+
+# Carthage
+#
+Carthage/Build/
+
+# Swift Package Manager
+#
+Packages
+.swiftpm
+.build/
+# Xcode automatically generates this directory with a `target.xcarchive` when you archive your app.
+*.xcarchive
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/*.lock
+
+# Code signing
+#
+*.pem
+*.cer
+*.mobileprovision
+*.p12
+
+# Provisioning profiles
+#
+*.mobileprovision
+
+# App metadata
+#
+*.xcuserstate
+
+# Firebase
+#
+GoogleService-Info.plist
+
+# Swift Playgrounds
+#
+timeline.xctimeline
+playground.xcplayground
+
+# Core Data
+#
+*.xccdatamodeld/
+
+# Temporary files
+#
+*.swp
+*.swo
+*.tmp
+
+# Logs
+#
+*.log
+
+# Xcode environment settings
+#
+*.xcsettings
+
+# Archives
+#
+*.ipa
+*.dSYM.zip
+
+# Test output
+#
+test-output/
+
+# Additional
+#
+.idea/
+*.iml
+
+# macOS
+#
+*.lock
+*.xcodesamplecode.plist
